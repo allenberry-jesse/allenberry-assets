@@ -15,7 +15,7 @@ Any file in this repo is available at the base URL above plus its path.
 For example, `emails/2026-05-12-test/hero-mill.jpg` is reachable at:
 
 ```
-https://allenberry-jesse.github.io/allenberry-assets/emails/2026-05-12-test/hero-mill.jpg
+**`https://assets.allenberry.com/`**
 ```
 
 That's the URL you paste into the `<img src="...">` tag in your email.
@@ -27,7 +27,7 @@ That's the URL you paste into the `<img src="...">` tag in your email.
 ```
 allenberry-assets/
 ├── emails/                       # One folder per email send
-│   └── YYYY-MM-DD-slug/          # Date + short topic slug
+│   └── YYYY-MM-DD/               # Date
 │       ├── hero.jpg
 │       └── ...
 ├── shared/                       # Used across multiple emails / pages
@@ -39,11 +39,11 @@ allenberry-assets/
     └── dining/
 ```
 
-**`emails/`** — one subfolder per weekly send. Folder name is the send date in `YYYY-MM-DD` format plus a short slug describing the topic. Examples:
+**`emails/`** — one subfolder per weekly send. Folder name is the send date in `YYYY-MM-DD` format. Examples:
 
-- `2026-05-12-crockett-origins/`
-- `2026-05-19-fly-fishing-season/`
-- `2026-05-26-playhouse-opening/`
+- `2026-05-12/`
+- `2026-05-19/`
+- `2026-05-26/`
 
 **`shared/`** — anything used in more than one email or page (logos, icons, signature graphics, social icons). Don't duplicate these into each weekly folder.
 
